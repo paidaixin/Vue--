@@ -1,0 +1,12 @@
+// jsx配置文件
+{
+    "presets": [
+        "@vue/cli-plugin-babel/preset",
+        [
+            "@vue/babel-preset-jsx",
+            {
+                "injectH": false
+            }
+        ]
+    ]
+}
